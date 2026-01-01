@@ -1,0 +1,33 @@
+/* Free's Red Brand Colors */
+:root {
+  /* Primary brand color - Free's signature red */
+  --vp-c-brand-1: #cd1419;
+  --vp-c-brand-2: #b01115;
+  --vp-c-brand-3: #e82227;
+  --vp-c-brand-soft: rgba(205, 20, 25, 0.14);
+
+  /* Button styling */
+  --vp-button-brand-border: transparent;
+  --vp-button-brand-text: #fff;
+  --vp-button-brand-bg: #cd1419;
+  --vp-button-brand-hover-border: transparent;
+  --vp-button-brand-hover-text: #fff;
+  --vp-button-brand-hover-bg: #e82227;
+  --vp-button-brand-active-border: transparent;
+  --vp-button-brand-active-text: #fff;
+  --vp-button-brand-active-bg: #b01115;
+
+  /* Home hero accent */
+  --vp-home-hero-name-color: transparent;
+  --vp-home-hero-name-background: linear-gradient(135deg, #cd1419 0%, #e82227 100%);
+  --vp-home-hero-image-background-image: linear-gradient(135deg, rgba(205, 20, 25, 0.3) 50%, rgba(232, 34, 39, 0.3) 50%);
+  --vp-home-hero-image-filter: blur(44px);
+}
+
+/* Dark mode adjustments */
+.dark {
+  --vp-c-brand-1: #e82227;
+  --vp-c-brand-2: #cd1419;
+  --vp-c-brand-3: #f04349;
+  --vp-c-brand-soft: rgba(232, 34, 39, 0.16);
+}
